@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./rm285-mynt-50a.jpg);
+    background-size: 400px 600px;
+    background-size:100%;;
+  }
+     
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: gold;
+    text-shadow: 0 0 15px orange, 0 0 30px orange, 0 0 50px orange
+  
+}
+
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3f0bae;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+  }
+     
+  button:active {
+      transform: scale(1.2);
+  }
+     
+  .letter {
+      text-align: center;
+      border: 2px solid rgb(1, 19, 5);
+      padding: 3px;
+      margin: 1px;
+      min-width:50px;
+      
+      display: inline-block
+  }
+     
+  .row{
+      margin-bottom:5px;
+      text-align: center;
+  }
+     
+  .input-area{
+      margin: 30px;
+  }
